@@ -22,8 +22,8 @@ const App = () => (
           </a>
         </div>
         <div className="w-64 h-64 bg-stone-200 rounded-full overflow-hidden border-4 border-stone-900 shadow-2xl relative flex items-center justify-center flex-shrink-0">
-          {/* REPLACE THE DIV BELOW WITH AN <img> TAG ONCE YOU HAVE YOUR PFP */}
-          <div className="text-center font-sans">
+          {/* <img src="/pfp.jpg" alt="The Acid Profile"/}
+          <div className="w-full h-full object-cover">
             <Code2 size={48} className="mx-auto text-stone-400 mb-2"/>
             <span className="text-xs font-bold text-stone-500 uppercase tracking-widest">[Your PFP Here]</span>
           </div>
