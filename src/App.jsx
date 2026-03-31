@@ -66,8 +66,8 @@ const App = () => (
       <footer className="mt-24 pt-8 border-t border-stone-200 flex justify-between items-center text-sm font-sans text-stone-500">
         <p>© 2026 The Acid</p>
         <div className="flex gap-4">
-          <a href="https://twitter.com/theacid" target="_blank" rel="noreferrer" className="hover:text-stone-900 transition-colors">Twitter (X)</a>
-          <a href="mailto:your-email@example.com" className="hover:text-stone-900 transition-colors">Email</a>
+          <a href="https://twitter.com/theacidxyz" target="_blank" rel="noreferrer" className="hover:text-stone-900 transition-colors">Twitter (X)</a>
+          <a href="mailto:morecryptopleasee@gmail.com" className="hover:text-stone-900 transition-colors">Email</a>
         </div>
       </footer>
     </div>
