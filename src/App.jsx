@@ -2,11 +2,11 @@ import React from 'react';
 import { Briefcase, Code2, Users, Megaphone, ShieldCheck } from 'lucide-react';
 
 const App = () => (
-  <div className="min-h-screen bg-[#0d0d0d] text-zinc-300 font-sans selection:bg-lime-500/30">
+  <div className="min-h-screen bg-stone-50 text-stone-900 font-sans selection:bg-rose-200">
     <div className="max-w-5xl mx-auto px-6 py-12 md:py-20">
       
       {/* Header Profile Section */}
-      <header className="mb-16 border-b border-zinc-800 pb-12 flex flex-col md:flex-row items-center md:items-start gap-8">
+      <header className="flex flex-col md:flex-row items-center md:items-start gap-8 mb-20 border-b border-stone-200 pb-12">
         <div className="w-32 h-32 md:w-48 md:h-48 rounded-full overflow-hidden border-4 border-stone-900 shadow-xl flex-shrink-0">
           <img src="/pfp.jpg" alt="The Acid" className="w-full h-full object-cover" />
         </div>
