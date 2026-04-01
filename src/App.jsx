@@ -94,7 +94,7 @@ import React from 'react';const App = () =>(
                 { name: "DuelDuck", role: "Community Manager", tags: ["Community Management", "Engagement", "Content"], desc: "Built and maintained an active, engaged community. Created content, moderated discussions, and fostered user interaction." },
                 { name: "FX NEXUS", role: "Community Manager", tags: ["Community Management", "Growth", "Culture"], desc: "Managed community growth and engagement strategies. Facilitated discussions and maintained positive community culture." },
                 { name: "Voidbet", role: "Community Manager", tags: ["Community Management", "Events", "Relations"], desc: "Developed community initiatives and managed user relations. Coordinated events and promoted community participation." },
-                { name: "INFECT3D", role: "Community Manager", tags].map((job, i) => (
+                { name: "INFECT3D", role: "Community Manager", tags: ["Community Management", "Operations", "Moderation"], desc: "Oversaw community operations and member engagement. Implemented community programs and moderation policies." }
                 <div key={i} className="p-5 border border-zinc-200 rounded-lg">
                   <h4 className="font-bold text-zinc-900">{job.name}</h4>
                   <p className="text-xs text-zinc-500 mb-3">{job.role}</p>
